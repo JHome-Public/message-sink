@@ -1,0 +1,9 @@
+server:
+  port: 8093
+
+spring:
+  application:
+    name: message-sink
+
+  config:
+    import: optional:configserver:http://localhost:8889
